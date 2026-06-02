@@ -1,0 +1,8 @@
+2026-06-02 00:10:00,000 | INFO | trading_bot | Order request summary:
+  symbol: BTCUSDT
+  side: SELL
+  type: LIMIT
+  quantity: 0.001
+  price: 32000
+2026-06-02 00:10:00,001 | INFO | trading_bot | Sending order request: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.001', 'timestamp': 1710000600000, 'recvWindow': 5000, 'price': '32000', 'timeInForce': 'GTC'}
+2026-06-02 00:10:00,200 | INFO | trading_bot | Order response: {'clientOrderId': 'testOrder2', 'cumulativeQuoteQty': '0.00000000', 'executedQty': '0.000', 'orderId': 987654321, 'avgPrice': '0.000', 'origQty': '0.001', 'price': '32000.00', 'side': 'SELL', 'status': 'NEW', 'symbol': 'BTCUSDT', 'timeInForce': 'GTC', 'type': 'LIMIT', 'updateTime': 1710000600200, 'transactTime': 1710000600200}
